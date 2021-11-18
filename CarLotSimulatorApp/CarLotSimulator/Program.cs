@@ -25,6 +25,10 @@ namespace CarLotSimulator
 
             lot.Cars.Add(firstCar);
 
+            for (int i = 0; i < lot.Cars.Count; i++)
+            {
+
+            }
 
 
             var secondCar = new Car()

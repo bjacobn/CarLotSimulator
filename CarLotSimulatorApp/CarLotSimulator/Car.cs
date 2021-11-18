@@ -10,7 +10,7 @@ namespace CarLotSimulator
 
         //Car shall have the following properties: Year, Make, Model, EngineNoise, HonkNoise, IsDriveable
 
-        //Contstructor 1
+        //Properties
         public int Year { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
@@ -19,13 +19,13 @@ namespace CarLotSimulator
         public bool IsDriveable { get; set; }
 
 
-        //Constructor 2
+        //Constructor 
         public Car()
         {
         }
 
 
-        //Constructor 3
+        //Constructor 
         public Car(int year, string make, string model, string engineNoise, string honkNoise, bool isDriveable)
         {
             Year = year;
@@ -36,7 +36,6 @@ namespace CarLotSimulator
             IsDriveable = isDriveable;
         }
 
-       
 
 
         //Car shall have the following methods: MakeEngineNoise(), MakeHonkNoise()
