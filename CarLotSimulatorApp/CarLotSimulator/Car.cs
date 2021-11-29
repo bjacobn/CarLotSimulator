@@ -22,6 +22,8 @@ namespace CarLotSimulator
         //Constructor 
         public Car()
         {
+            //Increment after adding new car 
+            CarLot.numberOfCars++;
         }
 
 

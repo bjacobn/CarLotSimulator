@@ -10,8 +10,12 @@ namespace CarLotSimulator
     {
         public CarLot()
         {
+
         }
 
         public List<Car> Cars = new List<Car>();
+
+        //Create static field / Count start index 1
+        public static int numberOfCars = 1;
     }
 }
